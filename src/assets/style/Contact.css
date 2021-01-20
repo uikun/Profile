@@ -1,0 +1,124 @@
+h1 {
+  margin-top: 30px;
+  line-height: 5px;
+}
+
+.sns-contents {
+  text-align: center;
+}
+
+.sns-contents p {
+  font-size: 50px;
+  color: rgb(196, 183, 0);
+  border-bottom: double 4px #ff7300;
+  width: 50%;
+  margin: 5% auto;
+}
+
+.sns-button {
+  margin: auto 2%;
+}
+
+.mail {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mail p {
+  font-size: 40px;
+  font-style: oblique;
+  font-family: 'arial black';
+}
+
+@media screen and (max-width: 1110px) {
+  h2 {
+    font-size: 22px;
+  }
+  .sns-contents p {
+    font-size: 40px;
+  }
+  .mail p {
+    font-size: 30px;
+  }
+  .sns-button {
+    width: 58px;
+    height: 58px;
+  }
+  .mail {
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 18px;
+  }
+  .sns-contents p {
+    font-size: 30px;
+  }
+  .mail p {
+    font-size: 25px;
+  }
+  .sns-button {
+    width: 48px;
+    height: 48px;
+  }
+  .mail {
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  h2 {
+    font-size: 14px;
+  }
+  .sns-contents p {
+    font-size: 24px;
+  }
+  .mail p {
+    font-size: 20px;
+  }
+  .sns-button {
+    width: 34px;
+    height: 34px;
+  }
+  .mail {
+    padding-top: 4px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  h2 {
+    font-size: 10px;
+  }  .sns-contents p {
+    font-size: 18px;
+  }
+  .mail p {
+    font-size: 16px;
+  }
+  .sns-button {
+    width: 28px;
+    height: 28px;
+  }
+  .mail {
+    padding-top: 3px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  h2 {
+    font-size: 8px;
+  }  .sns-contents p {
+    font-size: 15px;
+  }
+  .mail p {
+    font-size: 12px;
+  }
+  .sns-button {
+    width: 20px;
+    height: 20px;
+  }
+  .mail {
+    padding-top: 1px;
+  }
+}

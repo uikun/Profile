@@ -1,0 +1,13 @@
+.work-contents {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.card {
+  margin: 10px auto;
+  padding: 0 3%;
+  width: 400px;
+  box-sizing: border-box;
+}
